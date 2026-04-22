@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Almir Jude Lacorte — Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <span class="nav-logo">almir.dev</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero-label">Open to opportunities</div>
+      <h1>Almir Jude<br><em>Lacorte</em></h1>
+      <p class="hero-bio">Aspiring software developer from Lucena City, Philippines. I build full-stack web applications, automate workflows, and craft intuitive user experiences.</p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="mailto:almirjude.lacorte@gmail.com">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          Send Email
+        </a>
+        <a class="btn btn-secondary" href="tel:09762798371">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.61 19a19.5 19.5 0 0 1-5.99-5.99A19.79 19.79 0 0 1 3.09 4.18 2 2 0 0 1 5.07 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L9.91 9.91A16 16 0 0 0 15.09 15.09l1.27-.41a2 2 0 0 1 2.11.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0976-279-8371
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="container fade-in">
+      <p class="section-label">01 — About</p>
+      <div class="about-text">
+        <p>I'm a Computer Science student at Sacred Heart College of Lucena City, graduating in 2026 with Magna Cum Laude honors. I'm passionate about building software that solves real problems — from automating tedious workflows to crafting polished, responsive UIs.</p>
+        <p>My experience spans full-stack web development, data visualization, ETL pipelines, and game development. I enjoy working across the stack and picking up new tools quickly — whether that's a PHP backend, a React frontend, or a Unity 2D game engine.</p>
+      </div>
+      <div class="about-meta">
+        <div class="meta-item"><div class="meta-label">Location</div><div class="meta-value">Lucena City, PH</div></div>
+        <div class="meta-item"><div class="meta-label">Degree</div><div class="meta-value">BS Computer Science</div></div>
+        <div class="meta-item"><div class="meta-label">Honor</div><div class="meta-value">Magna Cum Laude</div></div>
+        <div class="meta-item"><div class="meta-label">Status</div><div class="meta-value">Graduating 2026</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container fade-in">
+      <p class="section-label">02 — Experience</p>
+      <div class="exp-item">
+        <div class="exp-date">May–Aug 2025</div>
+        <div>
+          <div class="exp-company">Moldedcraft Consulting Corporation</div>
+          <div class="exp-role">Software Development Intern (WFH)</div>
+          <div class="exp-desc">Built a centralized log monitoring dashboard parsing raw server logs via custom PHP regex engine with real-time Chart.js visualization. Designed an automated ETL pipeline for .xlsx/.csv ingestion, cutting data onboarding time from hours to under a minute.</div>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-date">2022–2026</div>
+        <div>
+          <div class="exp-company">Sacred Heart College of Lucena City</div>
+          <div class="exp-role">BS Computer Science Student</div>
+          <div class="exp-desc">Graduating Magna Cum Laude. Led a thesis team to develop a full-stack Student Clearance Management System for actual academic deployment. Holds NC III certification in Visual Graphics Design.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container fade-in">
+      <p class="section-label">03 — Projects</p>
+      <div class="project-item">
+        <div>
+          <div class="project-stack"><span class="tag">Laravel 12</span><span class="tag">Livewire</span><span class="tag">PHP 8.2</span><span class="tag">MySQL</span></div>
+          <div class="project-name">Student Clearance Management System</div>
+          <div class="project-desc">Thesis project — digitizes and automates the academic clearance process for educational institutions. Features multi-role approval workflows, real-time dashboards, and configurable signatories.</div>
+        </div>
+        <a class="project-arrow" href="projects/student-clearance.html" aria-label="Open Student Clearance Management System page">↗</a>
+      </div>
+      <div class="project-item">
+        <div>
+          <div class="project-stack"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span></div>
+          <div class="project-name">Task MoTO Productivity Tracker</div>
+          <div class="project-desc">Full-stack MERN task management app with RESTful APIs, Pomodoro timer, calendar date picker, and separate views for active and completed tasks.</div>
+        </div>
+        <a class="project-arrow" href="projects/task-moto.html" aria-label="Open Task MoTO Productivity Tracker page">↗</a>
+      </div>
+      <div class="project-item">
+        <div>
+          <div class="project-stack"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Pandas</span><span class="tag">Plotly</span></div>
+          <div class="project-name">International School Data Visualizer</div>
+          <div class="project-desc">Interactive dashboard comparing tuition, cost of living, rent, insurance, and course duration across international schools.</div>
+        </div>
+        <a class="project-arrow" href="projects/school-data-visualizer.html" aria-label="Open International School Data Visualizer page">↗</a>
+      </div>
+      <div class="project-item">
+        <div>
+          <div class="project-stack"><span class="tag">C#</span><span class="tag">Windows Forms</span><span class="tag">MySQL</span></div>
+          <div class="project-name">School Management System</div>
+          <div class="project-desc">Desktop app with role-based login for students and teachers. Supports grade input, class records generation, and student data management.</div>
+        </div>
+        <a class="project-arrow" href="projects/school-management-system.html" aria-label="Open School Management System page">↗</a>
+      </div>
+      <div class="project-item">
+        <div>
+          <div class="project-stack"><span class="tag">C#</span><span class="tag">Unity 2D</span><span class="tag">WebGL</span></div>
+          <div class="project-name">Space Shooter Game</div>
+          <div class="project-desc">Wave-based survival shooter with boss battles, progressive difficulty, upgradeable weapons, and persistent progression. Cross-platform: PC, Mobile, WebGL.</div>
+        </div>
+        <a class="project-arrow" href="projects/space-shooter.html" aria-label="Open Space Shooter Game page">↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container fade-in">
+      <p class="section-label">04 — Skills</p>
+      <div class="skills-grid">
+        <div class="skill-group"><div class="skill-group-label">Languages</div><div class="skill-list"><span>PHP</span><span>JavaScript</span><span>Python</span><span>C#</span><span>HTML / CSS</span></div></div>
+        <div class="skill-group"><div class="skill-group-label">Frontend</div><div class="skill-list"><span>React</span><span>Livewire / Volt</span><span>Streamlit</span><span>Chart.js</span><span>Plotly</span></div></div>
+        <div class="skill-group"><div class="skill-group-label">Backend</div><div class="skill-list"><span>Laravel</span><span>Symfony</span><span>Node.js / Express</span><span>MySQL</span><span>MongoDB</span></div></div>
+        <div class="skill-group"><div class="skill-group-label">Tools</div><div class="skill-list"><span>Git / GitHub</span><span>Postman</span><span>Power BI</span><span>Excel</span><span>TeamViewer</span></div></div>
+        <div class="skill-group"><div class="skill-group-label">Practices</div><div class="skill-list"><span>RESTful APIs</span><span>ETL Pipelines</span><span>Agile / Scrum</span><span>Software Testing</span><span>OOP</span></div></div>
+        <div class="skill-group"><div class="skill-group-label">Other</div><div class="skill-list"><span>Unity 2D</span><span>Game Dev</span><span>Data Visualization</span><span>NC III Graphics</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-name">Almir Jude Lacorte</div>
+    <div class="footer-contact">
+      <a href="mailto:almirjude.lacorte@gmail.com">almirjude.lacorte@gmail.com</a>
+      <a href="tel:09762798371">0976-279-8371</a>
+    </div>
+    <p class="footer-note">Lucena City, Philippines · Aspiring Software Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

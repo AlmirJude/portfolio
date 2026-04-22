@@ -1,0 +1,32 @@
+# Unity generated files
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# VS Code / IDE
+.idea/
+.vs/
+*.csproj
+*.sln
+
+# Android
+[Bb]in/
+[Oo]bj/
+[Ll]ibrary/
+[Bb]ee/
+
+# Burst cache
+Library/BurstCache/
+
+# Large artifact files
+*.a
+*.so
+*.dylib
+*.dll
+*.aar
+*.db
+ArtifactDB
